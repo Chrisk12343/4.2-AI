@@ -1,0 +1,173 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text color */
+}
+
+/* Header Styling */
+header {
+    background: #222; /* Dark background for header */
+    color: #fff; /* White text */
+    padding: 10px 0; /* Padding around the header */
+    text-align: center; /* Center the content in the header */
+}
+
+header h1 {
+    font-size: 2.5rem; /* Large font size for the website title */
+}
+
+/* Navigation Bar Styling */
+nav ul {
+    display: flex; /* Flexbox layout for horizontal menu */
+    justify-content: center; /* Center the menu items */
+    gap: 20px; /* Space between the items */
+}
+
+nav ul li {
+    list-style: none; /* Remove bullet points */
+}
+
+nav ul li a {
+    color: #fff; /* White text for links */
+    font-size: 1.1rem; /* Slightly larger text for navigation links */
+}
+
+nav ul li a:hover {
+    color: #ff9800; /* Change color on hover */
+}
+
+/* Main Content Section Styling */
+main {
+    padding: 20px; /* Add padding around the content */
+}
+
+section {
+    margin-bottom: 40px; /* Add space between sections */
+}
+
+section h2 {
+    text-align: center; /* Center the section headings */
+    margin-bottom: 20px; /* Add space below the headings */
+}
+
+/* Game Cards Styling */
+.game-card {
+    background-color: #fff; /* White background for cards */
+    border-radius: 10px; /* Rounded corners for cards */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 20px;
+    padding: 20px; /* Add padding inside the cards */
+    text-align: center; /* Center the text inside cards */
+}
+ img  
+  {width: 10%;}
+.game-card img {
+    width: 50%; /* Ensure the images take up full width */
+    height: auto; /* Maintain image aspect ratio */
+    border-radius: 8px; /* Rounded corners for images */
+    margin-bottom: 10px; /* Space below the image */
+}
+
+.game-card button {
+    background-color: #ff9800; /* Orange button background */
+    border: none; /* Remove border */
+    color: #fff; /* White text on button */
+    padding: 10px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor to indicate button is clickable */
+}
+
+.game-card button:hover {
+    background-color: #e68900; /* Darker orange when hovering */
+}
+
+/* Reviews Section Styling */
+article {
+    background-color: #fff; /* White background for review articles */
+    padding: 20px; /* Padding inside the article */
+    margin-bottom: 20px; /* Space below each article */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+article button {
+    background-color: #007bff; /* Blue button for reviews */
+    border: none; /* Remove border */
+    color: #fff; /* White text */
+    padding: 10px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+}
+
+article button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* News List Styling */
+ul {
+    padding: 10px; /* Padding around the news list */
+}
+
+ul li {
+    padding: 10px; /* Padding inside each list item */
+    margin: 5px 0; /* Space between list items */
+    background-color: #fff; /* White background for list items */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+ul li a {
+    color: #007bff; /* Blue text for news links */
+    font-size: 1.1rem; /* Slightly larger text */
+}
+
+ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Footer Styling */
+footer {
+    background: #222; /* Dark background for footer */
+    color: #fff; /* White text */
+    padding: 20px; /* Padding inside the footer */
+    text-align: center; /* Center the content */
+}
+
+footer form {
+    margin-top: 20px; /* Space between form and text */
+}
+
+footer form label {
+    display: block; /* Block-level for labels */
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+footer form input, footer form textarea {
+    width: 100%; /* Full-width inputs */
+    padding: 10px; /* Padding inside input fields */
+    margin-bottom: 10px; /* Space below input fields */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light border around input fields */
+}
+
+footer form button {
+    background-color: #28a745; /* Green button background */
+    color: #fff; /* White text on button */
+    padding: 10px; /* Padding inside the button */
+    border: none; /* No border for the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+}
+
+footer form button:hover {
+    background-color: #218838; /* Darker green on hover */
+}

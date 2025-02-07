@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character encoding and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Title of the website that appears in the browser tab -->
+    <title>GameZone - Your Video Game Hub</title>
+    <!-- Linking to the external CSS file for styling -->
+    <link rel="stylesheet" href="video games.css">
+</head>
+<body>
+
+    <!-- Header section with site title and navigation links -->
+    <header>
+        <!-- Site title -->
+        <h1>GameZone</h1>
+        <!-- Navigation menu with links to different sections -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#games">Popular Games</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content area of the website -->
+    <main>
+        <!-- Home section with welcome message and image -->
+        <section id="home">
+            <h2>Welcome to GameZone</h2>
+            <p>Your ultimate source for all things video games!</p>
+            <!-- Image of a game controller -->
+            <img src="game controller.jpg" alt="Game controller"> 
+        </section>
+
+        <!-- Popular games section with cards for each game -->
+        <section id="games">
+            <h2>Popular Games</h2>
+            <!-- Game Card 1 -->
+            <div class="game-card">
+                <h3>Halo Infinite</h3>
+                <img src="halo.jpg" alt="Halo Infinite">
+                <p>The next chapter in the legendary Halo franchise. Join Master Chief on an epic journey.</p>
+                <button>Learn More</button>
+            </div>
+            <!-- Game Card 2 -->
+            <div class="game-card">
+                <h3>Cyberpunk 2077</h3>
+                <img src="cyber punk.jpg" alt="Cyberpunk 2077">
+                <p>An open-world RPG set in the dystopian future of Night City. Customize your character, and dive into the action.</p>
+                <button>Learn More</button>
+            </div>
+            <!-- Game Card 3 -->
+            <div class="game-card">
+                <h3>The Last of Us Part II</h3>
+                <img src="last of us.jpg" alt="The Last of Us Part II">
+                <p>Follow Ellie’s emotional journey through a post-apocalyptic world filled with danger and difficult choices.</p>
+                <button>Learn More</button>
+            </div>
+        </section>
+
+        <!-- Reviews section with game review articles -->
+        <section id="reviews">
+            <h2>Game Reviews</h2>
+            <!-- Review Article 1 -->
+            <article>
+                <h3>Halo Infinite Review</h3>
+                <p>A deep dive into the latest entry in the Halo series. The graphics, gameplay, and multiplayer experience are top-notch!</p>
+                <button>Read Full Review</button>
+            </article>
+            <!-- Review Article 2 -->
+            <article>
+                <h3>Cyberpunk 2077 - Worth the Hype?</h3>
+                <p>After numerous updates, Cyberpunk 2077 has become one of the most immersive RPGs in the market. Here’s our review.</p>
+                <button>Read Full Review</button>
+            </article>
+        </section>
+
+        <!-- Latest News section -->
+        <section id="news">
+            <h2>Latest News</h2>
+            <!-- News List -->
+            <ul>
+                <li><a href="#">New DLC Announced for The Witcher 3</a></li>
+                <li><a href="#">E3 2025 – What to Expect</a></li>
+                <li><a href="#">PlayStation VR2: New Features Revealed</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer section with contact form -->
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Want to share your thoughts or ask us a question? Reach out to us!</p>
+        <!-- Contact Form -->
+        <form action="#" method="POST">
+            <!-- Name input -->
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <!-- Email input -->
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Message textarea -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <!-- Submit button -->
+            <button type="submit">Send Message</button>
+        </form>
+    </footer>
+
+</body>
+</html>
